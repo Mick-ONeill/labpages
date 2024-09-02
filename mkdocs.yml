@@ -18,3 +18,5 @@ theme: readthedocs
 plugins:
   - search
   - mermaid2
+
+dev_addr: '0.0.0.0:8080'
