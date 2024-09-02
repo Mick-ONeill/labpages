@@ -1,0 +1,20 @@
+site_name: Home Lab Guide
+nav:
+  - Home: 'index.md'
+  - 'The Lab':
+    - 'Basic Overview': 'overview.md'
+    - 'Proxmox': 'proxmox.md'
+    - 'Networking': 'lab-network.md'
+    - 'DNS & DHCP': 'dnsmasq.md'
+    - 'Remote Access': 'guacamole.md'
+    - 'Reverse Proxy': 'nginx.md'
+    - 'Kubernetes Cluster': 'talos.md'
+    - 'Prometheus Operator': 'prometheus-operator.md'
+    - 'MkDocs': 'mkdocs.md'
+    - 'Roadmap': 'lab-roadmap.md'
+
+theme: readthedocs
+
+plugins:
+  - search
+  - mermaid2
